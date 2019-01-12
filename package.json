@@ -1,0 +1,28 @@
+{
+  "name": "minify-graphql-loader",
+  "version": "0.0.1",
+  "description": "webpack loader to minify GraphQL queries and mutations",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "test-watch": "./node_modules/.bin/jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabsprates/minify-graphql-loader.git"
+  },
+  "keywords": [
+    "graphql",
+    "webpack",
+    "minify"
+  ],
+  "author": "Gabriel Prates <gabsprates@gmail.com> (http://gabrielprates.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabsprates/minify-graphql-loader/issues"
+  },
+  "homepage": "https://github.com/gabsprates/minify-graphql-loader#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
