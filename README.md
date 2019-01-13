@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/gabsprates/minify-graphql-loader.svg?branch=master)](https://travis-ci.org/gabsprates/minify-graphql-loader)
 
-webpack loader to minify GraphQL queries and mutations, reducing your bundle's size
+webpack loader to minify GraphQL queries, mutations and fragments, reducing your bundle's size
 
 ## installing:
 
