@@ -1,9 +1,11 @@
 const input = `
 {
+  # Queries can have comments!
   hero {
+    # A lot of them!!!
     name
-    # Queries can have comments!
     friends {
+      # Really!
       name
       id
     }

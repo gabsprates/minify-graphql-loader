@@ -32,4 +32,20 @@ describe("minify-graphql-loader", () => {
       );
     });
   });
+
+  describe("query with imports", () => {
+    const queryWithImports = require("./tests/queryWithImports.graphql");
+
+    it("should return a minified query with imports, each in a line", () => {
+      expect(minify(queryWithImports.input)).toEqual(queryWithImports.expected);
+    });
+  });
+
+  describe("query with aliases", () => {
+    const queryWithAliases = require("./tests/queryWithAliases.graphql");
+
+    it("should return a minified query with aliases", () => {
+      expect(minify(queryWithAliases.input)).toEqual(queryWithAliases.expected);
+    });
+  });
 });
