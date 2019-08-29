@@ -1,6 +1,9 @@
 {
   "name": "minify-graphql-loader",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "description": "webpack loader to minify GraphQL queries and mutations",
   "main": "index.js",
   "scripts": {
@@ -23,6 +26,6 @@
   },
   "homepage": "https://github.com/gabsprates/minify-graphql-loader#readme",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^24.9.0"
   }
 }
