@@ -7,10 +7,15 @@ module.exports = function(source) {
       return "";
     })
     .replace(/#.*/g, "")
-    .replace(/\s(?![a-zA-Z])/g, "")
+    .replace(/\s(?![a-zA-Z_\.])/g, "")
+    .replace(/\$/g, ",$")
+    .replace(/,+/g, ",")
+    .replace(/([\(:]),/g, "$1")
     .replace(/:\s+/g, ":")
+    .replace(/,\s+/g, ",")
     .replace(/\{\s?/g, "{")
-    .replace(/\}\s?/g, "}");
+    .replace(/\}\s?/g, "}")
+    .trim();
 
   return [...imports, minified].join("\n");
 };

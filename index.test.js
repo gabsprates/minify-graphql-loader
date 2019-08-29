@@ -48,4 +48,24 @@ describe("minify-graphql-loader", () => {
       expect(minify(queryWithAliases.input)).toEqual(queryWithAliases.expected);
     });
   });
+
+  describe("query with variables", () => {
+    const queryWithVariables = require("./tests/queryWithVariables.graphql");
+
+    it("should return a minified query with variables", () => {
+      expect(minify(queryWithVariables.input)).toEqual(
+        queryWithVariables.expected
+      );
+    });
+  });
+
+  describe("query with variables2", () => {
+    const queryWithVariables2 = require("./tests/queryWithVariables2.graphql");
+
+    it("should return a minified query with variables", () => {
+      expect(minify(queryWithVariables2.input)).toEqual(
+        queryWithVariables2.expected
+      );
+    });
+  });
 });
