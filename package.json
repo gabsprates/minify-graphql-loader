@@ -1,6 +1,6 @@
 {
   "name": "minify-graphql-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "webpack loader to minify GraphQL queries and mutations",
   "main": "index.js",
   "scripts": {
