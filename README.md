@@ -1,6 +1,28 @@
 # minify-graphql-loader
 
-[![Build Status](https://travis-ci.org/gabsprates/minify-graphql-loader.svg?branch=master)](https://travis-ci.org/gabsprates/minify-graphql-loader)
+<a href="https://www.npmjs.com/package/minify-graphql-loader">
+<img src="https://img.shields.io/npm/v/minify-graphql-loader" alt="Version" />
+</a>
+
+<a href="https://travis-ci.org/gabsprates/minify-graphql-loader">
+<img src="https://travis-ci.org/gabsprates/minify-graphql-loader.svg?branch=master" alt="Build Status" />
+</a>
+
+<a href="https://www.npmjs.com/package/minify-graphql-loader">
+<img src="https://img.shields.io/npm/dw/minify-graphql-loader" alt="npm downloads" />
+</a>
+
+<a href="https://bundlephobia.com/result?p=minify-graphql-loader">
+<img src="https://img.shields.io/bundlephobia/minzip/minify-graphql-loader" alt="Bundle size" />
+</a>
+
+<a href="https://github.com/gabsprates/minify-graphql-loader/blob/master/LICENSE">
+<img src="https://img.shields.io/github/license/gabsprates/minify-graphql-loader" alt="License" />
+</a>
+
+<a href="https://github.com/gabsprates/minify-graphql-loader/">
+<img src="https://img.shields.io/node/v/minify-graphql-loader" alt="Node.js version" />
+</a>
 
 webpack loader to minify GraphQL queries, mutations and fragments, reducing your bundle's size
 
