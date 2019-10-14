@@ -28,5 +28,8 @@
   "homepage": "https://github.com/gabsprates/minify-graphql-loader#readme",
   "devDependencies": {
     "jest": "^24.9.0"
+  },
+  "jest": {
+    "collectCoverage": true
   }
 }
