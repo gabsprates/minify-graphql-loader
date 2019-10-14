@@ -3,9 +3,5 @@ node_js:
   - '12'
   - '11'
   - '10'
-install:
-  - npm install -g codecov
-  - yarn
 script:
-  - jest
-  - codecov
+  - jest && codecov

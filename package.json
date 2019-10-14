@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/gabsprates/minify-graphql-loader#readme",
   "devDependencies": {
+    "codecov": "^3.6.1",
     "jest": "^24.9.0"
   },
   "jest": {
