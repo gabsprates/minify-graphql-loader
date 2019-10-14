@@ -3,7 +3,5 @@ node_js:
   - '12'
   - '11'
   - '10'
-install:
-  - npm install -g codecov
 after_success:
   - codecov -t 1e81efc0-7c4b-4f17-acf2-9e4ad13c112b
