@@ -8,6 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/jest",
+    "test:cover": "./node_modules/.bin/jest --coverage",
     "test-watch": "./node_modules/.bin/jest --watch"
   },
   "repository": {
