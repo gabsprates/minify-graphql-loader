@@ -3,3 +3,5 @@ node_js:
   - "12"
   - "11"
   - "10"
+script:
+  - jest && codecov

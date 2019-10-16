@@ -24,6 +24,10 @@
 <img src="https://img.shields.io/node/v/minify-graphql-loader" alt="Node.js version" />
 </a>
 
+<a href="https://codecov.io/gh/gabsprates/minify-graphql-loader">
+  <img src="https://codecov.io/gh/gabsprates/minify-graphql-loader/branch/master/graph/badge.svg" />
+</a>
+
 webpack loader to minify GraphQL queries, mutations and fragments, reducing your bundle's size
 
 ## installing:
