@@ -71,6 +71,13 @@ module.export = {
 
 ## Contributing
 
+### good things comes in small packages :blush:
+
+1. Leave a star :star:
+2. Share :handshake:
+
+### coding
+
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -m 'Add some feature'`
