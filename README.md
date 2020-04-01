@@ -30,6 +30,8 @@
 
 webpack loader to minify GraphQL queries, mutations and fragments, reducing your bundle's size
 
+In [this example](https://github.com/gabsprates/minify-graphql-loader/blob/master/tests/queryWithVariables2.graphql.js), we decrease ~17,5% query's size
+
 ## installing:
 
 - npm:
@@ -80,7 +82,7 @@ module.export = {
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -m 'Add some feature'`
+3. Commit your changes: `git commit -m 'Add some feature'` (follow this guide: [Karma's Git Commit Msg](http://karma-runner.github.io/1.0/dev/git-commit-msg.html))
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
