@@ -32,5 +32,8 @@
   "jest": {
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
+  },
+  "dependencies": {
+    "graphql": "^14.6.0"
   }
 }
